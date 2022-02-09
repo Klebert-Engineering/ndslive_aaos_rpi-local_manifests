@@ -4,10 +4,10 @@
  Refer to http://source.android.com/source/downloading.html
 
  $ repo init -u https://android.googlesource.com/platform/manifest -b android11-qpr3-release
- $ git clone https://github.com/snappautomotive/firmware_rpi-local_manifests .repo/local_manifests -b sa-main
+ $ git clone https://github.com/klebert-engineering/ndslive_aaos_rpi-local_manifests .repo/local_manifests -b ke-main
  $ repo sync
 
 # Build for Raspberry Pi 4
- https://github.com/snappautomotive/firmware-device_snappautomotive_rpi/tree/sa-main
+ https://github.com/klebert-engineering/ndslive_aaos_rpi/tree/ke-main
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
