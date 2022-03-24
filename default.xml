@@ -21,6 +21,6 @@
 
   <project path="device/ndslive/common" name="ndslive_aaos_common" remote="ke" />  
   <project path="device/ndslive/rpi" name="ndslive_aaos_rpi" remote="ke" />
- <!-- <project path="vendor/snappautomotive/packages/maps" name="firmware-vendor_snappautomotive_packages_maps" remote="snappautomotive" /> -->
+  <project path="vendor/ndslive/packages/maps" name="ndslive_aaos_apks" remote="ke" />
   
 </manifest>
